@@ -1,3 +1,16 @@
+/* header */
+.fotoSLM{
+    width: 150px;
+    height: 200px;
+    border-radius: 5em;
+}
+
+/* sec2 */
+.img-ilus{
+    width: 500px;
+    
+}
+
 /* footer */
 
 .icon{
@@ -7,4 +20,15 @@
 
 .link{
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .list-unstyled{
+        display: flex;
+        flex-direction: row;
+    }
+    .list-unstyled a{
+        padding: 5px;
+    }
 }
