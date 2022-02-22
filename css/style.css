@@ -46,7 +46,8 @@ body{
 }
 .bg-front{
     border-radius: 1em 3em 1em 3em;
-    background-color: rgba(19, 17, 17, 0.9)
+    background-color: rgba(19, 17, 17, 0.9);
+    
 }
     
 
@@ -85,5 +86,9 @@ body{
     }
     .list-unstyled a{
         padding: 5px;
+    }
+    .bg-front{
+        width: 80%;
+        /* border-radius: 0px 0px 0px 0px ; */
     }
 }
