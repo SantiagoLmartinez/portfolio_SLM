@@ -55,6 +55,10 @@ body{
     width: 500px;
     
 }
+.about-me img{
+    width: 500px;
+}
+
 /* sec3 */
 #portfolio img{
     height: 190px;
