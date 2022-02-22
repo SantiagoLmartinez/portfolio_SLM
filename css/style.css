@@ -4,6 +4,10 @@
     height: 170px;
     border-radius: 2em;
 }
+.header h2{
+    color: #fff;
+    font-size: 2em;
+}
 .header p{
     display: flex;
     justify-content: end;
