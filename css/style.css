@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
 /* header */
 .fotoSLM{
     width: 130px;
@@ -30,12 +35,29 @@
     background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
+.sec1container h1{
+    color: #d40152;
+    text-shadow: 1px 1px 2px rgb(139, 101, 19);
+    font-weight: 700;
+    font-size: 3em;
+}
+.sec1container p {
+    font-size: 1.5em;
+}
+.bg-front{
+    border-radius: 1em 3em 1em 3em;
+    background-color: rgba(19, 17, 17, 0.9)
+}
     
 
 /* sec2 */
 .img-ilus{
     width: 500px;
     
+}
+/* sec3 */
+#portfolio img{
+    height: 190px;
 }
 
 /* footer */
