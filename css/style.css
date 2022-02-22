@@ -1,8 +1,13 @@
 /* header */
 .fotoSLM{
-    width: 150px;
-    height: 200px;
-    border-radius: 5em;
+    width: 130px;
+    height: 170px;
+    border-radius: 2em;
+}
+.header p{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
 }
 /* contact */
 /* .list-unstyled{
