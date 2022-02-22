@@ -13,11 +13,15 @@
     justify-content: end;
     align-items: flex-end;
 }
-/* contact */
-/* .list-unstyled{
-    background-color: #fff;
-} */
+/* sec 1 */
+.sec1container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 
+
+}
 
 /* sec2 */
 .img-ilus{
