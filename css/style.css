@@ -1,8 +1,26 @@
 /* header */
 .fotoSLM{
-    width: 150px;
-    height: 200px;
-    border-radius: 5em;
+    width: 130px;
+    height: 170px;
+    border-radius: 2em;
+}
+.header h2{
+    color: #fff;
+    font-size: 2em;
+}
+.header p{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+/* sec 1 */
+.sec1container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
 }
 
 /* sec2 */
@@ -14,7 +32,9 @@
 /* footer */
 
 .icon{
-    width: 0.7em;
+    width: 1em;
+    background-color: #fff;
+
 }
 
 
