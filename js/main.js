@@ -7,3 +7,4 @@ window.onscroll = () =>{
         document.querySelector('#subirBtn').classList.remove('active')
     }
 }
+
