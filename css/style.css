@@ -59,14 +59,15 @@ body{
 }
 
 /* footer */
-.subirBtn{
-    /* position: absolute; */
+#subirBtn{
     position: fixed;
-    bottom: 20px;
-	right: 40px;
-    /* z-index: 99; */
-
+    bottom: -120%;
+    transition: 1s linear;
 }
+#subirBtn.active{
+    bottom: 2%;
+}
+
 .icon{
     width: 1em;
     background-color: #fff;
@@ -125,5 +126,9 @@ body{
     }
     .card{
         margin-bottom: 1em;
+    }
+    #subirBtn.active{
+        bottom: 7%;
+        right: 30px;
     }
 }
