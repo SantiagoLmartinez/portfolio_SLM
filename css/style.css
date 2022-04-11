@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap');
 html{
     scroll-behavior: smooth;
+    /* position: relative; */
 }
 body{
     font-family: 'Oswald', sans-serif;
@@ -58,7 +59,14 @@ body{
 }
 
 /* footer */
+.subirBtn{
+    /* position: absolute; */
+    position: fixed;
+    bottom: 20px;
+	right: 40px;
+    /* z-index: 99; */
 
+}
 .icon{
     width: 1em;
     background-color: #fff;
