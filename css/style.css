@@ -133,7 +133,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 420px){
     .navResp{
         width: 100%;
         /* background-color: #d40152; */
