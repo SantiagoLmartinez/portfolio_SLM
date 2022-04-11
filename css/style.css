@@ -135,7 +135,7 @@ body{
 
 @media only screen and (max-width: 450px){
     .navResp{
-        /* width: 100%; */
+        width: 100%;
         /* background-color: #d40152; */
         /* display: flex; */
         /* flex-direction: row; */
